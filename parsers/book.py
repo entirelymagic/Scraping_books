@@ -4,9 +4,6 @@ import logging
 from locators.book_locators import BookLocators
 
 logger = logging.getLogger('scraping.book_parser')
-logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
-                    datefmt='%d-%m-%Y:%H:%M:%S',
-                    level=logging.ERROR)  # logging.DEBUG to see added information
 
 
 class BookParser:

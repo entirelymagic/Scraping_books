@@ -1,6 +1,7 @@
 class BookLocators:
     """
     Locators for an item in the HTML page.
+
     This allows us to easily see what our code will be looking at
     as well as change it quickly if we notice it is now different.
     """
