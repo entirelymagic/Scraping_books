@@ -1,7 +1,7 @@
 import requests
 import logging
 import time
-from .pages.all_books_page import AllBooksPage
+from pages.all_books_page import AllBooksPage
 
 logging.basicConfig(format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
                     datefmt='%d-%m-%Y %H:%M:%S',

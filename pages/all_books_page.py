@@ -1,8 +1,8 @@
 import re
 import logging
 
-from .locators.all_books_page import AllBooksPageLocators
-from .parsers.book import BookParser
+from locators.all_books_page import AllBooksPageLocators
+from parsers.book import BookParser
 from bs4 import BeautifulSoup
 
 logger = logging.getLogger('scraping.all_books_page')
